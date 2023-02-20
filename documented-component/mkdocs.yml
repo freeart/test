@@ -1,0 +1,12 @@
+site_name: 'test Documentation'
+repo_url: https://github.com/freeart/test
+edit_uri: edit/master/documented-component/docs
+
+nav:
+  - Home: index.md
+  - Subpage: sub-page.md
+  - 'Code Sample': code/code-sample.md
+  - Extensions: extensions.md
+
+plugins:
+  - techdocs-core
