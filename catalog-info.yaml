@@ -1,8 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "test"
+  name: documented-component-test
+  title: Documented Component
+  description: A Service with TechDocs documentation
+  annotations:
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
-  owner: user:guest
   lifecycle: experimental
+  owner: user:guest
