@@ -8,5 +8,7 @@ nav:
   - 'Code Sample': code/code-sample.md
   - Extensions: extensions.md
 
+extra_css: [extra.css]
+
 plugins:
   - techdocs-core
