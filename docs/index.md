@@ -5,6 +5,8 @@ features that TechDocs provides out of the box.
 
 <iframe src="https://drive.google.com/file/d/1LFXYNB42DYE-y5dQEd_JtSc_MnFeSpDT/preview" width="640" height="480" allow="autoplay"></iframe>
 
+![Video](https://lh3.googleusercontent.com/u/0/drive-viewer…-QUg-EEQQuRwgVTERHwfnnfvLMzOEz8w=w1920-h1080-k-pd)
+
 You can see also!
 
 - [A sub page](sub-page.md)
