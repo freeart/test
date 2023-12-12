@@ -3,6 +3,8 @@
 This is a basic example of documentation. It is intended as a showcase of some of the
 features that TechDocs provides out of the box.
 
+<iframe src="https://drive.google.com/file/d/1LFXYNB42DYE-y5dQEd_JtSc_MnFeSpDT/preview" width="640" height="480" allow="autoplay"></iframe>
+
 You can see also:
 
 - [A sub page](sub-page.md)
