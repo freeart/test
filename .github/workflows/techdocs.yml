@@ -1,0 +1,25 @@
+name: Publish TechDocs Site
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "docs/**"
+      - "mkdocs.yml"
+      - ".github/workflows/techdocs.yml"
+
+jobs:
+  publish-techdocs-site:
+    name: Publish TechDocs Site
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Setup Node
+        uses: Staffbase/backstage-techdocs-action@v0.2.1
+        with:
+          entity-name: 'test-docs'
+          publisher-type: 'awsS3'
+          storage-name: 'harvest-backstage-dev-605064682692-docs'
+          aws-region: 'us-east-1'
+          aws-access-key-id: ${{ secrets.TECHDOCS_AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.TECHDOCS_AWS_SECRET_ACCESS_KEY }}
